@@ -47,12 +47,6 @@
     <Compile Include="ProductBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FileManager\DataPersistestence.csproj">
-      <Project>{001a205a-57ff-42b4-a9cd-453469ef4343}</Project>
-      <Name>DataPersistestence</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
